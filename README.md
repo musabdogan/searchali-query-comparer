@@ -6,6 +6,8 @@ Compare two Elasticsearch query strategies side by side using the same search te
 
 **Live demo:** [query-comparer.searchali.com](https://query-comparer.searchali.com/)
 
+![iphone charger — Old Query vs New Query](public/icons/iphone%20charger.png)
+
 ## Prerequisites
 
 - Node.js 18+
@@ -87,8 +89,6 @@ Try these demo searches from the article:
 
 - `iphone charger` — name-focused intent; compare top-rank precision
 - `mixer` — ambiguous intent; compare ranking balance across product types
-
-![iphone charger — Old Query vs New Query](public/icons/iphone%20charger.png)
 
 ## Customize queries
 
