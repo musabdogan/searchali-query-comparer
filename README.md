@@ -4,6 +4,8 @@ Part 1 companion app for the Search Labs article *Vibe Coding UIs for Relevance 
 
 Compare two Elasticsearch query strategies side by side using the same search term, the same dataset, and the same moment. Old Query runs a baseline `multi_match` on name, description, category, and brand. New Query adds `name^2` and `brand^2` field boosts on the same fields.
 
+**Live demo:** [query-comparer.searchali.com](https://query-comparer.searchali.com/)
+
 ## Prerequisites
 
 - Node.js 18+
@@ -81,10 +83,12 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Walkthrough queries
 
-Try these demo searches:
+Try these demo searches from the article:
 
-- `wireless earbuds` — name-focused intent; compare top-rank precision
-- `laptop` — broader intent; compare ranking balance and noise
+- `iphone charger` — name-focused intent; compare top-rank precision
+- `mixer` — ambiguous intent; compare ranking balance across product types
+
+![iphone charger — Old Query vs New Query](public/icons/iphone%20charger.png)
 
 ## Customize queries
 

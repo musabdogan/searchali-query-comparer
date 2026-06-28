@@ -11,7 +11,8 @@
     "build:preview": "node scripts/build-preview-catalog.mjs",
     "seed": "node scripts/seed-index.mjs",
     "seed:recreate": "node scripts/seed-index.mjs --recreate",
-    "index:full": "node scripts/index-full-catalog.mjs --recreate"
+    "index:full": "node scripts/index-full-catalog.mjs --recreate",
+    "user:readonly": "node scripts/create-readonly-user.mjs"
   },
   "dependencies": {
     "@elastic/elasticsearch": "^9.4.2",
